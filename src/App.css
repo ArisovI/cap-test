@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+body {
+  height: 100vh;
+  background-color: #c6c6c6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+button {
+  padding: 12px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.app > div {
+  margin-bottom: 20px;
+}
